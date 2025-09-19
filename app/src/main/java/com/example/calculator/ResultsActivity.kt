@@ -40,6 +40,7 @@ class ResultActivity : AppCompatActivity() {
             "Resta" -> "−" to (a - b)
             "Multiplicación" -> "×" to (a * b)
             "División" -> "÷" to (a / b)
+            "Potencia" -> "^" to Math.pow(a,b)
             else -> "?" to Double.NaN
         }
     }
